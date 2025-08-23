@@ -1,5 +1,5 @@
 # Install Shinobi with Docker
-#### 2024-05-07
+#### 2025-08-24
 https://shinobi.video
 https://docs.shinobi.video/installation/docker
 
@@ -7,7 +7,7 @@ https://docs.shinobi.video/installation/docker
 
 1. Run this in terminal.
 ```
-bash <(curl -s https://gitlab.com/Shinobi-Systems/Shinobi-Installer/raw/master/shinobi-docker.sh)
+bash <(curl -s https://raw.githubusercontent.com/dragonestrio/shinobi-docker-updated/refs/heads/master/shinobi-docker.sh)
 ```
 
 # Advanced Install

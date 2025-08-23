@@ -1,4 +1,4 @@
-ARG BASE_IMAGE=node:18-buster-slim
+ARG BASE_IMAGE=node:18-bullseye-slim
 FROM ${BASE_IMAGE}
 
 ENV DEBIAN_FRONTEND=noninteractive
