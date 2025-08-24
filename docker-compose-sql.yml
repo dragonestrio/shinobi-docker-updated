@@ -4,7 +4,7 @@ services:
     image: mariadb:10.6.22-jammy
     volumes:
       - /DATA/AppData/shinobidocker-shinobi-sql-1/data:/var/lib/mysql
-      - /DATA/AppData/shinobidocker-shinobi-sql-1/mysql-init:/docker-entrypoint-initdb.d
+      - ./mysql-init:/docker-entrypoint-initdb.d
     ports:
       - 3306:3306
     environment:
