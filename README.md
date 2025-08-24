@@ -7,7 +7,7 @@ https://docs.shinobi.video/installation/docker
 
 1. Run this in terminal.
 ```
-bash <(curl -s https://raw.githubusercontent.com/dragonestrio/shinobi-docker-updated/refs/heads/armv8/shinobi-docker.sh)
+bash <(curl -s https://raw.githubusercontent.com/dragonestrio/shinobi-docker-updated/refs/heads/armv8-casaos/shinobi-docker.sh)
 ```
 
 # Advanced Install
