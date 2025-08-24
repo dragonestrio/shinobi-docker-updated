@@ -31,10 +31,10 @@ You will be asked if you want to use the included database, default is Yes. Once
 
 | Variable             | Description                                          | Default Value    |
 |----------------------|------------------------------------------------------|------------------|
-| MYSQL_ROOT_PASSWORD  | The password for the MySQL root user.                | `rootpassword`   |
-| MYSQL_DATABASE       | The name of the database to create.                  | `ccio`           |
-| MYSQL_USER           | The username for the database.                       | `majesticflame`  |
-| MYSQL_PASSWORD       | The password for the database user.                  | `1234`           |
+| MARIADB_ROOT_PASSWORD  | The password for the MySQL root user.                | `rootpassword`   |
+| MARIADB_DATABASE       | The name of the database to create.                  | `ccio`           |
+| MARIADB_USER           | The username for the database.                       | `majesticflame`  |
+| MARIADB_PASSWORD       | The password for the database user.                  | `1234`           |
 
 ### `docker-compose-main.yml` : `shinobi` Service Build Arguments and Environment Variables
 
@@ -55,6 +55,9 @@ You will be asked if you want to use the included database, default is Yes. Once
 | DB_DATABASE       | Name of the MySQL database to use.                   | `ccio`          |
 | SHINOBI_UPDATE    | Whether to pull updates from git when the container starts. | `false`      |
 
+#### Notes
+
+If you are not using a Linux OS for this, please add '#' to the first line of the following instructions inside of the codes. 
 
 **Script Failing? Run this.**
 
