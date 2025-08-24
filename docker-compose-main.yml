@@ -17,4 +17,6 @@ services:
       - DB_PASSWORD=1234
       - DB_DATABASE=ccio
       - SHINOBI_UPDATE=false
+    extra_hosts: # comment this if you aren't use linux
+      - "host.docker.internal:host-gateway" # comment this if you aren't use linux
     restart: unless-stopped
