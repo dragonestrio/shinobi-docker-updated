@@ -46,7 +46,7 @@ fi
 
 # Clone the repository if it doesn't exist
 if [ ! -d "/home/ShinobiDocker" ]; then
-    git clone https://github.com/dragonestrio/shinobi-docker-updated.git /home/ShinobiDocker
+    git clone https://github.com/dragonestrio/shinobi-docker-updated.git /home/ShinobiDocker --branch armv8
 fi
 
 # Navigate to the directory
