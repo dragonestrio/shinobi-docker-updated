@@ -6,8 +6,8 @@ services:
       args:
         SHINOBI_BRANCH: dev
     volumes:
-      - /dev/shm/ShinobiRAM:/dev/shm/streams
-      - $HOME/Shinobi:/home/Shinobi
+      - /DATA/AppData/shinobidocker-shinobi-1/streams:/dev/shm/streams
+      - /DATA/AppData/shinobidocker-shinobi-1/data:/home/Shinobi
     ports:
       - "8080:8080"
     environment:
